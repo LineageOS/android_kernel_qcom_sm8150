@@ -1,3 +1,5 @@
 menu "Qualcomm ASoC additional codecs"
 
+source "techpack/audio/asoc/codecs/tas256x/Kconfig"
+
 endmenu
