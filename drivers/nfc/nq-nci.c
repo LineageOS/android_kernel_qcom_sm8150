@@ -153,6 +153,7 @@ static irqreturn_t nqx_dev_irq_handler(int irq, void *dev_id)
 	return IRQ_HANDLED;
 }
 
+#ifndef CONFIG_MACH_XIAOMI_SM8150
 static int is_data_available_for_read(struct nqx_dev *nqx_dev)
 {
 	int ret;
@@ -162,6 +163,7 @@ static int is_data_available_for_read(struct nqx_dev *nqx_dev)
 		!nqx_dev->irq_enabled, msecs_to_jiffies(MAX_IRQ_WAIT_TIME));
 	return ret;
 }
+#endif
 
 static ssize_t nfc_read(struct file *filp, char __user *buf,
 					size_t count, loff_t *offset)
@@ -348,9 +350,7 @@ static int sn100_ese_pwr(struct nqx_dev *nqx_dev, unsigned long int arg)
 		 * VEN state will remain HIGH if NFC is enabled otherwise
 		 * it will be set as LOW
 		 */
-		nqx_dev->nfc_ven_enabled =
-			gpio_get_value(nqx_dev->en_gpio);
-		if (!nqx_dev->nfc_ven_enabled) {
+		if (!gpio_get_value(nqx_dev->en_gpio)) {
 			dev_dbg(&nqx_dev->client->dev, "eSE HAL service setting en_gpio HIGH\n");
 			gpio_set_value(nqx_dev->en_gpio, 1);
 			/* hardware dependent delay */
@@ -792,6 +792,11 @@ static const struct file_operations nfc_dev_fops = {
 #endif
 };
 
+/**
+ * Do not need check availability of NFCC.
+ * This function will block NFCC to enter FW download mode.
+ */
+#ifndef CONFIG_MACH_XIAOMI_SM8150
 /*
  * function: get_nfcc_hw_info()
  *
@@ -1112,6 +1117,7 @@ done:
 
 	return ret;
 }
+#endif
 
 /*
  * Routine to enable clock.
@@ -1431,7 +1437,7 @@ static int nqx_probe(struct i2c_client *client,
 	/* NFC_INT IRQ */
 	nqx_dev->irq_enabled = true;
 	r = request_irq(client->irq, nqx_dev_irq_handler,
-			  IRQF_TRIGGER_HIGH, client->name, nqx_dev);
+			  IRQF_TRIGGER_RISING, client->name, nqx_dev);
 	if (r) {
 		dev_err(&client->dev, "%s: request_irq failed\n", __func__);
 		goto err_request_irq_failed;
@@ -1443,6 +1449,7 @@ static int nqx_probe(struct i2c_client *client,
 	 * present before attempting further hardware initialisation.
 	 *
 	 */
+#ifndef CONFIG_MACH_XIAOMI_SM8150
 	r = nfcc_hw_check(client, nqx_dev);
 	if (r) {
 		/* make sure NFCC is not enabled */
@@ -1450,6 +1457,7 @@ static int nqx_probe(struct i2c_client *client,
 		/* We don't think there is hardware switch NFC OFF */
 		goto err_request_hw_check_failed;
 	}
+#endif
 
 	/* Register reboot notifier here */
 	r = register_reboot_notifier(&nfcc_notifier);
@@ -1465,11 +1473,13 @@ static int nqx_probe(struct i2c_client *client,
 	}
 
 #ifdef NFC_KERNEL_BU
-	r = nqx_clock_select(nqx_dev);
-	if (r < 0) {
-		dev_err(&client->dev,
-			"%s: nqx_clock_select failed\n", __func__);
-		goto err_clock_en_failed;
+	if (nqx_dev->pdata->clk_pin_voting) {
+		r = nqx_clock_select(nqx_dev);
+		if (r < 0) {
+			dev_err(&client->dev,
+				"%s: nqx_clock_select failed\n", __func__);
+			goto err_clock_en_failed;
+		}
 	}
 	gpio_set_value(platform_data->en_gpio, 1);
 #endif
