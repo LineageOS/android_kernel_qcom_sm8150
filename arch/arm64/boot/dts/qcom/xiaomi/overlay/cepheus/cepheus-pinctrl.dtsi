@@ -195,6 +195,34 @@
 		};
 	};
 
+	wcd_usbc_analog_en2n {
+		wcd_usbc_analog_en2n_idle: wcd_usbc_ana_en2n_idle {
+			mux {
+				pins = "gpio58";
+				function = "gpio";
+			};
+			config {
+				pins = "gpio58";
+				drive-strength = <2>;
+				bias-pull-down;
+				output-low;
+			};
+		};
+
+		wcd_usbc_analog_en2n_active: wcd_usbc_ana_en2n_active {
+			mux {
+				pins = "gpio58";
+				function = "gpio";
+			};
+			config {
+				pins = "gpio58";
+				drive-strength = <2>;
+				bias-disable;
+				output-high;
+			};
+		};
+	};
+
 	pcie1 {
 		pcie1_wake_default: pcie1_wake_default {
 			mux {
