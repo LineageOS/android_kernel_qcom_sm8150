@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8ce4dc78_2ca18457",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-05-18T15:13:53Z",
+      "side": 1,
+      "message": "Fixes this:\n05-18 16:57:15.728   927   927 E WifiHAL : get_wifi_interface_info: QCA_WLAN_VENDOR_ATTR_LL_STATS_IFACE_INFO_TS_DUTY_CYCLE not found\n05-18 16:57:15.728   927   927 E WifiHAL : nl80211: requestResponse-\u003enl_recvmsgs failed: -5\n05-18 16:57:15.730  1668  1996 E WifiVendorHal: getWifiLinkLayerStats_1_6_Internal(l.1199) failed {.code \u003d ERROR_INVALID_ARGS, .description \u003d }",
+      "revId": "29796e345679255affae6963655bd78f53ef453c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
