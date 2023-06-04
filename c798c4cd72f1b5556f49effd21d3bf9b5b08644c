@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9cca7d33_46490c76",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2023-06-04T17:41:01Z",
+      "side": 1,
+      "message": "verified on davinci, \"restorecon -R /mnt/vendor/persist\" restores all labels without -F option now",
+      "revId": "c798c4cd72f1b5556f49effd21d3bf9b5b08644c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
