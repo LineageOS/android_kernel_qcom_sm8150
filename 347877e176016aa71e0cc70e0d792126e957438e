@@ -33,6 +33,23 @@
       "message": "Working on raphael as well",
       "revId": "347877e176016aa71e0cc70e0d792126e957438e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9a1c2c92_eccaad66",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-08-21T22:55:03Z",
+      "side": 1,
+      "message": "It would be nice to find a real fix instead of a revert at some point",
+      "revId": "347877e176016aa71e0cc70e0d792126e957438e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
