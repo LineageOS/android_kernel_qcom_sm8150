@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "54b26c2f_3e4aa804",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-02T08:52:52Z",
+      "side": 1,
+      "message": "altenrative commit metadata: https://review.lineageos.org/c/LineageOS/android_kernel_qcom_msm8998/+/372118/1",
+      "revId": "121be6f5059f9180e689c9d14cd85bf7ee1fc34d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
