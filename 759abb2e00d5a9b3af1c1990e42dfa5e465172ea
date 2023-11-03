@@ -16,6 +16,24 @@
       "message": "are you ok with this chain?",
       "revId": "759abb2e00d5a9b3af1c1990e42dfa5e465172ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f114f9ae_2fa8cd05",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-11-03T19:06:35Z",
+      "side": 1,
+      "message": "I have no device to test it, feel free to merge it.",
+      "parentUuid": "e75b2962_34963242",
+      "revId": "759abb2e00d5a9b3af1c1990e42dfa5e465172ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
