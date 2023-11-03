@@ -34,6 +34,23 @@
       "parentUuid": "e75b2962_34963242",
       "revId": "759abb2e00d5a9b3af1c1990e42dfa5e465172ea",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9d793e3a_b80fbe0f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2023-11-03T20:16:54Z",
+      "side": 1,
+      "message": "late, but agreed - and fine on TP1803",
+      "revId": "759abb2e00d5a9b3af1c1990e42dfa5e465172ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
