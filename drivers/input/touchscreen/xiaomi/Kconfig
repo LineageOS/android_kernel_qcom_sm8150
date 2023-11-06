@@ -1,0 +1,14 @@
+source "drivers/input/touchscreen/xiaomi/nt36672c/Kconfig"
+
+config SECURE_TOUCH
+	bool "Secure Touch"
+
+config I2C_BY_DMA
+	bool "I2C BY DMA"
+
+config SPI_XIAOMI_TP
+	bool
+	depends on SPI
+	default y if TOUCHSCREEN_NT36xxx_HOSTDL_SPI
+	help
+		Say Y if want use xiaomi touch panel.
