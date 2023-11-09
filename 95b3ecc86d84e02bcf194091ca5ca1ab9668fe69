@@ -22,6 +22,30 @@
       },
       "revId": "95b3ecc86d84e02bcf194091ca5ca1ab9668fe69",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18824ec_e893d1af",
+        "filename": "drivers/clk/clk.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 2705,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2023-11-09T12:25:35Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "699a2cbc_444a7a0c",
+      "range": {
+        "startLine": 2702,
+        "startChar": 0,
+        "endLine": 2705,
+        "endChar": 2
+      },
+      "revId": "95b3ecc86d84e02bcf194091ca5ca1ab9668fe69",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
