@@ -33,6 +33,24 @@
       "message": "there\u0027s that https://review.lineageos.org/c/LineageOS/android_kernel_motorola_sm7250/+/341355https://review.lineageos.org/c/LineageOS/android_kernel_motorola_sm7250/+/341355, but i think we should cast to u32 instead of long there.",
       "revId": "70a3b98ae2f21e2e1f54ccba6c0f0d2c5dd69706",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff685bcc_45f726cd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-20T23:09:59Z",
+      "side": 1,
+      "message": "eh, pasted twice https://review.lineageos.org/c/LineageOS/android_kernel_motorola_sm7250/+/341355",
+      "parentUuid": "ea707392_76e77f89",
+      "revId": "70a3b98ae2f21e2e1f54ccba6c0f0d2c5dd69706",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
