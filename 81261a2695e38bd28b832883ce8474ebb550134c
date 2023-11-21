@@ -34,6 +34,23 @@
       "parentUuid": "3eb8a6e1_e253c969",
       "revId": "81261a2695e38bd28b832883ce8474ebb550134c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "69bf37d6_6ab1107d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2023-11-21T15:27:36Z",
+      "side": 1,
+      "message": "as lukasz said. could revert the removal patch too, so this one applies fully, but that seemed excessive",
+      "revId": "81261a2695e38bd28b832883ce8474ebb550134c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
