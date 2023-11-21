@@ -16,6 +16,24 @@
       "message": "https://github.com/LineageOS/android_kernel_xiaomi_sdm845/commit/1352021a81d4ac1ef2de20959fc211147593d21a",
       "revId": "77253b3d7b3133fd7697c01fd958fceff81cc93f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f687a66c_64da36bf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2023-11-21T17:04:34Z",
+      "side": 1,
+      "message": "bad timing.",
+      "parentUuid": "e3e04123_2f7668fa",
+      "revId": "77253b3d7b3133fd7697c01fd958fceff81cc93f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
