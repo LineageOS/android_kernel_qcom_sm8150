@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3eb8a6e1_e253c969",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9760
+      },
+      "writtenOn": "2023-11-21T12:21:34Z",
+      "side": 1,
+      "message": "And where is the removal of -fno-builtin the flag itself?\nOr do I not understand something?",
+      "revId": "81261a2695e38bd28b832883ce8474ebb550134c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
