@@ -51,6 +51,24 @@
       "message": "sry mate, i checked our qcom kernels up and down...",
       "revId": "77253b3d7b3133fd7697c01fd958fceff81cc93f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "abc08773_2df3a41e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2023-11-23T19:11:54Z",
+      "side": 1,
+      "message": "No worries.",
+      "parentUuid": "16c035e2_7ea99b4a",
+      "revId": "77253b3d7b3133fd7697c01fd958fceff81cc93f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": []
