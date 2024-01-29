@@ -16,6 +16,23 @@
       "message": "whole chain compiles.",
       "revId": "3a7728e419159740d0ccc01b1696b1c15d59939a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c18c2572_f72aaf7e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2024-01-29T20:39:32Z",
+      "side": 1,
+      "message": "... and boots on hotdog",
+      "revId": "3a7728e419159740d0ccc01b1696b1c15d59939a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
