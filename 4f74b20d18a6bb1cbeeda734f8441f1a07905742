@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "1fa7b1f3_377f4e41",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2024-01-30T08:51:47Z",
+      "side": 1,
+      "message": "not opposed to the patch per se, but how is reverting this giving us a \"msm-5.4 solution\" and how is it \"better\"?\nthe 5.4 solution afaics is dad847b72581039bc01b159651de10922f67d26b, which does away with enable_irq_wake completely.",
+      "revId": "4f74b20d18a6bb1cbeeda734f8441f1a07905742",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
