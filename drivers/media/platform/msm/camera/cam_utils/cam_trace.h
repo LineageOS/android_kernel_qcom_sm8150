@@ -17,7 +17,7 @@
 #undef TRACE_SYSTEM
 #define TRACE_SYSTEM camera
 #undef TRACE_INCLUDE_PATH
-#define TRACE_INCLUDE_PATH .
+#define TRACE_INCLUDE_PATH ../../drivers/media/platform/msm/camera/cam_utils
 #undef TRACE_INCLUDE_FILE
 #define TRACE_INCLUDE_FILE cam_trace
 
