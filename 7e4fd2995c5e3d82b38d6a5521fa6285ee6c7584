@@ -16,6 +16,24 @@
       "message": "I think you\u0027re supposed to set O\u003dout when building MSM kernel out of tree.",
       "revId": "7e4fd2995c5e3d82b38d6a5521fa6285ee6c7584",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a73d0daf_f25a70d4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 21290
+      },
+      "writtenOn": "2024-01-31T10:59:52Z",
+      "side": 1,
+      "message": "Thanks, that fixes it indeed.",
+      "parentUuid": "e5d0b211_170b438a",
+      "revId": "7e4fd2995c5e3d82b38d6a5521fa6285ee6c7584",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
