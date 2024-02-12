@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "51fb4fb5_d888a67e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-02-12T17:58:34Z",
+      "side": 1,
+      "message": "Without this change, the Volume mixers can\u0027t be set to any reasonable value due to checks in snd_soc_put_volsw_sx()",
+      "revId": "95f6fda55e835500df0014e31140e3cc6202308d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
