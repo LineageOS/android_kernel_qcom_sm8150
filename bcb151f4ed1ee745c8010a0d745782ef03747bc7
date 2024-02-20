@@ -16,6 +16,23 @@
       "message": "not sure if other 8150 devices are affected, but I think it doesn\u0027t hurt to have a nullptr check anyway",
       "revId": "bcb151f4ed1ee745c8010a0d745782ef03747bc7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9c466d13_30ea9b17",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 5911
+      },
+      "writtenOn": "2024-02-20T19:01:48Z",
+      "side": 1,
+      "message": "vote for having it in qcom. works on hotdog",
+      "revId": "bcb151f4ed1ee745c8010a0d745782ef03747bc7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
