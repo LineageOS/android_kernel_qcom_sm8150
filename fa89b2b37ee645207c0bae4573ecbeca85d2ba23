@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "126772db_a8e4010a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 6360
+      },
+      "writtenOn": "2024-03-09T17:17:11Z",
+      "side": 1,
+      "message": "Early wakeup trigger commits in kernel causing issue on Xiaomi sm6150 and sm8150 devices. Device is not able to wake after turning off screen.\n\nI have added sepolicy commit highlighted above. What else is needed?",
+      "revId": "fa89b2b37ee645207c0bae4573ecbeca85d2ba23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
