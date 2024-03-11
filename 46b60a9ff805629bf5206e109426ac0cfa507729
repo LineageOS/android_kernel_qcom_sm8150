@@ -24,6 +24,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "74eabfb9_fd8e08c2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-03-11T18:16:09Z",
+      "side": 1,
+      "message": "Well I assumed it would be better reverting it in qcom_sm8150 since if the early wakeup changes are (somehow?) device specific, it would be better picking them in their device kernel rather than reverts in multiple xiaomi kernels?",
+      "parentUuid": "558221a7_032b03b4",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 11,
+        "endChar": 81
+      },
+      "revId": "46b60a9ff805629bf5206e109426ac0cfa507729",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "41157c88_5277820d",
