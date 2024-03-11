@@ -16,6 +16,23 @@
       "message": "Early wakeup trigger commits in kernel causing issue on Xiaomi sm6150 and sm8150 devices. Device is not able to wake after turning off screen.\n\nI have added sepolicy commit highlighted above. What else is needed?",
       "revId": "fa89b2b37ee645207c0bae4573ecbeca85d2ba23",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d0b1ed83_534e11c8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2024-03-11T21:43:16Z",
+      "side": 1,
+      "message": "Seems a follow up change was added but not backported\nhttps://android.googlesource.com/kernel/msm-extra/display-drivers/+/f18b22b8f1df9dcbd96731a3a2178335a9cb5ecc",
+      "revId": "fa89b2b37ee645207c0bae4573ecbeca85d2ba23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
