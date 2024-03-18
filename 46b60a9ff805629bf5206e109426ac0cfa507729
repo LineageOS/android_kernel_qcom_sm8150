@@ -80,6 +80,23 @@
       "message": "Fixes for vayu and sweet.",
       "revId": "46b60a9ff805629bf5206e109426ac0cfa507729",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ea4b9654_bb1ade70",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 17062
+      },
+      "writtenOn": "2024-03-18T15:00:54Z",
+      "side": 1,
+      "message": "Fixes wakeup after suspend and suspend on Xiaomi Nabu",
+      "revId": "46b60a9ff805629bf5206e109426ac0cfa507729",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
