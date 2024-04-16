@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "727fe91f_59add009",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-04-16T16:03:42Z",
+      "side": 1,
+      "message": "The common implementation of file type doesn\u0027t exist on 4.14",
+      "revId": "8630468fbac5cf78bfd6067639bd08b8506dcad1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
