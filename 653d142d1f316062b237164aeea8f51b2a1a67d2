@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ada4c9c8_4d1af671",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-06-29T16:53:22Z",
+      "side": 1,
+      "message": "Alternate for I6956fbba177de305835c7411d938ecac4959d53f with clang-r510928",
+      "revId": "653d142d1f316062b237164aeea8f51b2a1a67d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
