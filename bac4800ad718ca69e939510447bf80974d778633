@@ -33,6 +33,24 @@
       "message": "sync-\u003efd",
       "revId": "bac4800ad718ca69e939510447bf80974d778633",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "39d5f33d_dbe48d41",
+        "filename": "drivers/gpu/msm/kgsl_drawobj.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 404,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-08-17T03:01:39Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d2cc372e_09ec8c8f",
+      "revId": "bac4800ad718ca69e939510447bf80974d778633",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
