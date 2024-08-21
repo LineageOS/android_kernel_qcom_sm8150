@@ -39,6 +39,30 @@
       },
       "revId": "561abe536c3352f6c88b8f94138f587e89290ddf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8912dd25_0f629e1c",
+        "filename": "techpack/audio/4.0/asoc/codecs/wsa881x.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 22465
+      },
+      "writtenOn": "2024-08-21T15:59:24Z",
+      "side": 1,
+      "message": "Done. Also marked them as inline as they are stubs.",
+      "parentUuid": "93a33bc3_5207a2d8",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 6
+      },
+      "revId": "561abe536c3352f6c88b8f94138f587e89290ddf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
