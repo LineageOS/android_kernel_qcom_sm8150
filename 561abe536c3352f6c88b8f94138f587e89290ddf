@@ -16,6 +16,29 @@
       "message": "Chain is meant for atoll. Alex: Adding you as reviewer as you did https://github.com/LineageOS/android_kernel_qcom_sm8150/commit/600ae2cbaa1c8c2bda50acc342b23f2f9ecc53b7.",
       "revId": "561abe536c3352f6c88b8f94138f587e89290ddf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "93a33bc3_5207a2d8",
+        "filename": "techpack/audio/4.0/asoc/codecs/wsa881x.h",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-08-21T15:41:16Z",
+      "side": 1,
+      "message": "it should be static",
+      "range": {
+        "startLine": 28,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 6
+      },
+      "revId": "561abe536c3352f6c88b8f94138f587e89290ddf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
