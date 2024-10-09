@@ -16,6 +16,24 @@
       "message": "this should be removed as well",
       "revId": "228bb26d27d4429f02830c9cea0dcb37b6bac603",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6e9c5bf8_2b4d2de9",
+        "filename": "drivers/staging/qcacld-3.0/core/mac/src/pe/lim/lim_send_management_frames.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5419,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-10-09T11:04:54Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "7e5de765_64753f36",
+      "revId": "228bb26d27d4429f02830c9cea0dcb37b6bac603",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
