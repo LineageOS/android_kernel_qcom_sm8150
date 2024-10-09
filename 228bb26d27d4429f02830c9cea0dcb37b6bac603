@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7e5de765_64753f36",
+        "filename": "drivers/staging/qcacld-3.0/core/mac/src/pe/lim/lim_send_management_frames.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5419,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-10-09T06:11:00Z",
+      "side": 0,
+      "message": "this should be removed as well",
+      "revId": "228bb26d27d4429f02830c9cea0dcb37b6bac603",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
