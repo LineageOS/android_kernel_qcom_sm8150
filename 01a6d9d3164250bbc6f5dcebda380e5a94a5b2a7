@@ -16,6 +16,23 @@
       "message": "Taken from sm8350, this fixes the issue described at https://gitlab.com/LineageOS/issues/android/-/issues/7544. It broke with QPR3 and should affect all devices. It\u0027s not easy to reproduce (I couldn\u0027t, Daniel couldn\u0027t) as it\u0027s \"random\" (The jack sending SW_UNSUPPORT_INSERT sometimes which causes it to soft reboot)",
       "revId": "01a6d9d3164250bbc6f5dcebda380e5a94a5b2a7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "995460dc_02730556",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-10-13T22:53:52Z",
+      "side": 1,
+      "message": "I\u0027m going to pick the two changes from sm8350 instead of the revert of a revert of a revert",
+      "revId": "01a6d9d3164250bbc6f5dcebda380e5a94a5b2a7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
