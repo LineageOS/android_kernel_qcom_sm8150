@@ -16,6 +16,23 @@
       "message": "Taken from sm8350, this chain fixes the issue described at https://gitlab.com/LineageOS/issues/android/-/issues/7544. It broke with QPR3 and should affect all devices. It\u0027s not easy to reproduce (I couldn\u0027t, Daniel couldn\u0027t) as it\u0027s \"random\" (The jack sends SW_UNSUPPORT_INSERT sometimes which causes it to soft reboot?). If you could just check if the chain is fine and doesn\u0027t break anything on your devices that\u0027d be great.",
       "revId": "8d611b91b9d4519ba81fac3de9f00943da13aebd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0159b90_70aadc08",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2024-10-14T19:47:58Z",
+      "side": 1,
+      "message": "the issue is SW_MAX mismatch and this chain aligns it with upstream",
+      "revId": "8d611b91b9d4519ba81fac3de9f00943da13aebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
