@@ -33,6 +33,23 @@
       "message": "the issue is SW_MAX mismatch and this chain aligns it with upstream",
       "revId": "8d611b91b9d4519ba81fac3de9f00943da13aebd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "80df80d0_91b06541",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34230
+      },
+      "writtenOn": "2024-10-14T23:48:13Z",
+      "side": 1,
+      "message": "405562: Revert \"ANDROID: ALSA: jack: Update supported jack switch types\" | https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8150/+/405562",
+      "revId": "8d611b91b9d4519ba81fac3de9f00943da13aebd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
