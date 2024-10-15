@@ -16,6 +16,24 @@
       "message": "would strip this signoff, I don\u0027t think it\u0027s relevant.",
       "revId": "23cfdb6f408097bb083d28d071d595d9441e418f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b278f247_cd97a953",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2024-10-15T01:23:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "da16f09b_aefb46a2",
+      "revId": "23cfdb6f408097bb083d28d071d595d9441e418f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
