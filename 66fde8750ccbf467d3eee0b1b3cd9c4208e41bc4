@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "01989597_f66e96f0",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2025-12-21T11:25:58Z",
+      "side": 1,
+      "message": "Don\u0027t upload the same commit under different change-Id. Re-use the one from https://review.lineageos.org/q/Iba7ad237a53fec10bc89c7e8c716e899158dfad2.",
+      "revId": "66fde8750ccbf467d3eee0b1b3cd9c4208e41bc4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
