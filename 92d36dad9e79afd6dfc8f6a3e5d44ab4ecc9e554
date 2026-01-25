@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b66963f_807cbd0c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25925
+      },
+      "writtenOn": "2026-01-25T18:48:00Z",
+      "side": 1,
+      "message": "Just for completeness since otherwise x86 is left broken.",
+      "revId": "92d36dad9e79afd6dfc8f6a3e5d44ab4ecc9e554",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
