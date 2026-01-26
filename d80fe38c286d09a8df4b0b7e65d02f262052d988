@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "22710d45_1b9facac",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-01-26T09:54:20Z",
+      "side": 1,
+      "message": "We probably don\u0027t want these reverts, I remember backporting some other ts64 stuff for the 5.4 chain",
+      "revId": "d80fe38c286d09a8df4b0b7e65d02f262052d988",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
