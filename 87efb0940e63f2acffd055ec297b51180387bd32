@@ -16,6 +16,23 @@
       "message": "Also, there is such an error:\n\ntechpack/data/drivers/rmnet/shs/rmnet_shs_config.c:185:4: error: incompatible function pointer types assigning to \u0027volatile typeof (rmnet_shs_skb_entry)\u0027 (aka \u0027void (*volatile)(struct sk_buff *, struct rmnet_port *)\u0027) from \u0027typeof (*(rmnet_shs_assign)) *\u0027 (aka \u0027int (*)(struct sk_buff *, struct rmnet_port *)\u0027) [-Wincompatible-function-pointer-types]\n  185 |                         RCU_INIT_POINTER(rmnet_shs_skb_entry,\n      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n  186 |                                          rmnet_shs_assign);\n      |                                          ~~~~~~~~~~~~~~~~~\ninclude/linux/rcupdate.h:875:3: note: expanded from macro \u0027RCU_INIT_POINTER\u0027\n  875 |                 WRITE_ONCE(p, RCU_INITIALIZER(v)); \\\n      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\ninclude/linux/compiler.h:203:30: note: expanded from macro \u0027WRITE_ONCE\u0027\n  203 |         *(volatile typeof(x) *)\u0026(x) \u003d (val);            \\\n      |                                     ^ ~~~~~\n1 error generated.",
       "revId": "87efb0940e63f2acffd055ec297b51180387bd32",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d36bff35_d6eb2dbd",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-01-30T09:25:24Z",
+      "side": 1,
+      "message": "This isn\u0027t bpf related tho.",
+      "revId": "87efb0940e63f2acffd055ec297b51180387bd32",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
