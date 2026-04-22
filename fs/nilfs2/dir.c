@@ -340,8 +340,6 @@ static int nilfs_readdir(struct file *file, struct dir_context *ctx)
  * returns the page in which the entry was found, and the entry itself
  * (as a parameter - res_dir). Page is returned mapped and unlocked.
  * Entry is guaranteed to be valid.
- *
- * On failure, returns an error pointer and the caller should ignore res_page.
  */
 struct nilfs_dir_entry *
 nilfs_find_entry(struct inode *dir, const struct qstr *qstr,
@@ -369,24 +367,22 @@ nilfs_find_entry(struct inode *dir, const struct qstr *qstr,
 	do {
 		char *kaddr = nilfs_get_page(dir, n, &page);
 
-		if (IS_ERR(kaddr))
-			return ERR_CAST(kaddr);
-
-		de = (struct nilfs_dir_entry *)kaddr;
-		kaddr += nilfs_last_byte(dir, n) - reclen;
-		while ((char *)de <= kaddr) {
-			if (de->rec_len == 0) {
-				nilfs_error(dir->i_sb,
-					    "zero-length directory entry");
-				nilfs_put_page(page);
-				goto out;
+		if (!IS_ERR(kaddr)) {
+			de = (struct nilfs_dir_entry *)kaddr;
+			kaddr += nilfs_last_byte(dir, n) - reclen;
+			while ((char *) de <= kaddr) {
+				if (de->rec_len == 0) {
+					nilfs_error(dir->i_sb,
+						"zero-length directory entry");
+					nilfs_put_page(page);
+					goto out;
+				}
+				if (nilfs_match(namelen, name, de))
+					goto found;
+				de = nilfs_next_entry(de);
 			}
-			if (nilfs_match(namelen, name, de))
-				goto found;
-			de = nilfs_next_entry(de);
+			nilfs_put_page(page);
 		}
-		nilfs_put_page(page);
-
 		if (++n >= npages)
 			n = 0;
 		/* next page is past the blocks we've got */
@@ -399,7 +395,7 @@ nilfs_find_entry(struct inode *dir, const struct qstr *qstr,
 		}
 	} while (n != start);
 out:
-	return ERR_PTR(-ENOENT);
+	return NULL;
 
 found:
 	*res_page = page;
@@ -444,19 +440,19 @@ fail:
 	return NULL;
 }
 
-int nilfs_inode_by_name(struct inode *dir, const struct qstr *qstr, ino_t *ino)
+ino_t nilfs_inode_by_name(struct inode *dir, const struct qstr *qstr)
 {
+	ino_t res = 0;
 	struct nilfs_dir_entry *de;
 	struct page *page;
 
 	de = nilfs_find_entry(dir, qstr, &page);
-	if (IS_ERR(de))
-		return PTR_ERR(de);
-
-	*ino = le64_to_cpu(de->inode);
-	kunmap(page);
-	put_page(page);
-	return 0;
+	if (de) {
+		res = le64_to_cpu(de->inode);
+		kunmap(page);
+		put_page(page);
+	}
+	return res;
 }
 
 /* Releases the page */

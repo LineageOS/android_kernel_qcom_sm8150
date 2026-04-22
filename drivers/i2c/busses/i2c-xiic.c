@@ -504,17 +504,14 @@ static irqreturn_t xiic_process(int irq, void *dev_id)
 			goto out;
 		}
 
-		if (xiic_tx_space(i2c)) {
-			xiic_fill_tx_fifo(i2c);
-		} else {
-			/* current message fully written */
+		xiic_fill_tx_fifo(i2c);
+
+		/* current message sent and there is space in the fifo */
+		if (!xiic_tx_space(i2c) && xiic_tx_fifo_space(i2c) >= 2) {
 			dev_dbg(i2c->adap.dev.parent,
 				"%s end of message sent, nmsgs: %d\n",
 				__func__, i2c->nmsgs);
-			/* Don't move onto the next message until the TX FIFO empties,
-			 * to ensure that a NAK is not missed.
-			 */
-			if (i2c->nmsgs > 1 && (pend & XIIC_INTR_TX_EMPTY_MASK)) {
+			if (i2c->nmsgs > 1) {
 				i2c->nmsgs--;
 				i2c->tx_msg++;
 				xfer_more = 1;
@@ -525,7 +522,11 @@ static irqreturn_t xiic_process(int irq, void *dev_id)
 					"%s Got TX IRQ but no more to do...\n",
 					__func__);
 			}
-		}
+		} else if (!xiic_tx_space(i2c) && (i2c->nmsgs == 1))
+			/* current frame is sent and is last,
+			 * make sure to disable tx half
+			 */
+			xiic_irq_dis(i2c, XIIC_INTR_TX_HALF_MASK);
 	}
 out:
 	dev_dbg(i2c->adap.dev.parent, "%s clr: 0x%x\n", __func__, clr);

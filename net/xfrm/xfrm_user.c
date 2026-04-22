@@ -148,7 +148,6 @@ static int verify_newsa_info(struct xfrm_usersa_info *p,
 			     struct nlattr **attrs)
 {
 	int err;
-	u16 family = p->sel.family;
 
 	err = -EINVAL;
 	switch (p->family) {
@@ -167,10 +166,7 @@ static int verify_newsa_info(struct xfrm_usersa_info *p,
 		goto out;
 	}
 
-	if (!family && !(p->flags & XFRM_STATE_AF_UNSPEC))
-		family = p->family;
-
-	switch (family) {
+	switch (p->sel.family) {
 	case AF_UNSPEC:
 		break;
 

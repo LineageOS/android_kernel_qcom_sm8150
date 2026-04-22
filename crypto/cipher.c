@@ -37,7 +37,8 @@ static int setkey_unaligned(struct crypto_tfm *tfm, const u8 *key,
 	alignbuffer = (u8 *)ALIGN((unsigned long)buffer, alignmask + 1);
 	memcpy(alignbuffer, key, keylen);
 	ret = cia->cia_setkey(tfm, alignbuffer, keylen);
-	kzfree(buffer);
+	memset(alignbuffer, 0, keylen);
+	kfree(buffer);
 	return ret;
 
 }
