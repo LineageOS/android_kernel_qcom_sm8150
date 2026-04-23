@@ -1,5 +1,23 @@
 {
-  "comments": [],
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5bccd2d0_2e15d20a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-04-23T17:16:27Z",
+      "side": 1,
+      "message": "somehow got lost in rebase, will fix in a bit",
+      "revId": "5e80b5c7c931bec4e66f067f95650a77f2b7afdc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ],
   "submitRequirementResults": [
     {
       "submitRequirement": {
