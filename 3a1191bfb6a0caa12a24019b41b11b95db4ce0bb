@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "3a3800b7_f0b0c1ef",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 36592
+      },
+      "writtenOn": "2026-06-16T09:22:48Z",
+      "side": 1,
+      "message": "After Enable CONFIG_SECURITY_SMACK\u003dy, Built through",
+      "revId": "3a1191bfb6a0caa12a24019b41b11b95db4ce0bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
