@@ -16,6 +16,23 @@
       "message": "After Enable CONFIG_SECURITY_SMACK\u003dy, Built through",
       "revId": "3a1191bfb6a0caa12a24019b41b11b95db4ce0bb",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a3fd2b1_2d64a8a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-06-16T13:36:04Z",
+      "side": 1,
+      "message": "I\u0027m fine with this, i don\u0027t see a reason since CONFIG_SECURITY_SMACK is not something we need to enabled for AOSP",
+      "revId": "3a1191bfb6a0caa12a24019b41b11b95db4ce0bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
