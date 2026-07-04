@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7e888c90_fc6365b1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2026-07-04T03:45:38Z",
+      "side": 1,
+      "message": "Not needed after https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8150/+/432174, you don\u0027t even need to include this fragment anymore",
+      "revId": "7dfb692fa349dd62b640f015e402ac4a84430789",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
