@@ -16,6 +16,23 @@
       "message": "confirmed it still happens. as discussed on discord, devices that don’t have this issue can pick it in their device kernel instead",
       "revId": "ffdb92d8b88057a3d6cfdc32c214b23ad6b19ccf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f14e36cf_ac9f6aab",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 28223
+      },
+      "writtenOn": "2026-07-07T19:34:20Z",
+      "side": 1,
+      "message": "actually hold for a bit",
+      "revId": "ffdb92d8b88057a3d6cfdc32c214b23ad6b19ccf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
