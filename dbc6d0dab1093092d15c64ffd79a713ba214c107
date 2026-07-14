@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "11f8b182_ed196ec8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-07-14T15:35:57Z",
+      "side": 1,
+      "message": "Surprised this exclusion didn\u0027t trigger errors",
+      "revId": "dbc6d0dab1093092d15c64ffd79a713ba214c107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
