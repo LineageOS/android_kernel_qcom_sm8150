@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "031aa100_77694d8e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 32253
+      },
+      "writtenOn": "2026-08-17T07:38:01Z",
+      "side": 1,
+      "message": "Fixed build with `SOONG_NINJA\u003dn2` (to note: this can be applied also on sm8250 base and lower, the following commit exists since 5.3-rc1)",
+      "revId": "abe4d493bd89f31e1f430b02577020a0e60c7fca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
