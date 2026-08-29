@@ -16,6 +16,23 @@
       "message": "Verified chain on I001D",
       "revId": "e47fc5c8c42daac395ab77cdef0a9761148a7f86",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0ff2f551_b93603af",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19252
+      },
+      "writtenOn": "2026-08-29T19:53:24Z",
+      "side": 1,
+      "message": "This chain is to fix loading websites on Chrome for LOS 24.0, and also some apps that require internet access (Telegram intermittently before this chain wouldn\u0027t load)",
+      "revId": "e47fc5c8c42daac395ab77cdef0a9761148a7f86",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
