@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5cec63b4_9788f2e3",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9760
+      },
+      "writtenOn": "2026-09-12T11:25:29Z",
+      "side": 1,
+      "message": "When using this commit, the WiFi on the OP7TPro (hotdog) breaks. Or I missed something. This patch is present - https://review.lineageos.org/c/LineageOS/android_vendor_lineage/+/500253",
+      "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
