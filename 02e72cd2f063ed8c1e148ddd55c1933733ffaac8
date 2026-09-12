@@ -33,6 +33,23 @@
       "message": "@evgeny.shishkov@gmail.com please make sure you\u0027re not doing anything funny - Onelots built hotdogb and has 0 issues.\n\nYou sure you synced recently? got the commit mentioned in the commit message?",
       "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "992647bb_c254dcc5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 16185
+      },
+      "writtenOn": "2026-09-12T23:26:37Z",
+      "side": 1,
+      "message": "works on gem and TP1803...",
+      "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
