@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "22085396_2b50241f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-09-13T04:21:39Z",
+      "side": 1,
+      "message": "I would advise looking at the sm8250 kernel for missing backports instead of just a hacky fix",
+      "revId": "5d47cca3938c47c1d2905f5bce109a3657d62dcf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
