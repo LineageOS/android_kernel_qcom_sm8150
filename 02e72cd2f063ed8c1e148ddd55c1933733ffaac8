@@ -50,6 +50,24 @@
       "message": "works on gem and TP1803...",
       "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "46c267b5_f20d7d10",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9760
+      },
+      "writtenOn": "2026-09-13T13:12:28Z",
+      "side": 1,
+      "message": "There was an additional patch in my kernel - https://review.lineageos.org/c/LineageOS/android_kernel_oneplus_sm8150/+/493013\n\nIt contains a line - https://github.com/LineageOS/android_kernel_oneplus_sm8150/commit/af17b888364b992c4e51d0028727827d64b12d1e#diff-f599d796518e3554ce2e5068f028e507bc38972a10c902aaa8c1c6ee21b94674L14\n\nBasically, the configuration is — https://github.com/LineageOS/android_kernel_oneplus_sm8150/blob/lineage-23.2/arch/arm64/configs/vendor/sm8150-perf_defconfig#L55\n\noplus.config overrides the parameters. Accordingly, at the moment the module is not signed. Therefore, everything works on hotdogb.\n\nWithout patch 493013, in the out/target/product/hotdog/obj/KERNEL_OBJ/.config we see “# CONFIG_MODULE_SIG is not set”. With patch 493013, we see “CONFIG_MODULE_SIG\u003dy”. I checked. This is the reason why WiFi is not working.\n\nI don’t think it’s right if the signature doesn’t work.",
+      "parentUuid": "07407ddf_0802cfbc",
+      "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
