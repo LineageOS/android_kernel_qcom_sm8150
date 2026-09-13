@@ -86,6 +86,24 @@
       "parentUuid": "46c267b5_f20d7d10",
       "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5183bd5a_526542b9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 9760
+      },
+      "writtenOn": "2026-09-13T18:51:42Z",
+      "side": 1,
+      "message": "\u003e Can you try with _just_ this commit dropped? Rest the commits still picked.\n\u003e \n\u003e Let me know.\n\nI have no complaints about commits 502184, 502185, 502187 and 502188. I used them during the build. Everything works well. The problem is only with this commit.",
+      "parentUuid": "6017bc7b_b87ba6f6",
+      "revId": "02e72cd2f063ed8c1e148ddd55c1933733ffaac8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
