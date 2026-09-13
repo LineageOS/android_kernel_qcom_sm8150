@@ -16,6 +16,24 @@
       "message": "No versions on kernel.org or AOSP remove this block.",
       "revId": "3f160025a9cf230e27edf3090d80a309f627fd52",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "39e964d8_c890d9d8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37615
+      },
+      "writtenOn": "2026-09-13T04:00:27Z",
+      "side": 1,
+      "message": "When using memcg, psi, and subspace lmk, dmesg will output logs crazily, which will affect certain performance",
+      "parentUuid": "1447a2e6_d734b8c5",
+      "revId": "3f160025a9cf230e27edf3090d80a309f627fd52",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
