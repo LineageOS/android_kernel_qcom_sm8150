@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fd700e15_2d6c8ed9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 38499
+      },
+      "writtenOn": "2026-10-30T17:49:20Z",
+      "side": 1,
+      "message": "Supersedes https://review.lineageos.org/q/I276ac14b55dba8c6f10844a4791d757b351e02a5\n\nAs much as I would\u0027ve liked to have a clean revert, there are two commits that depend on the reverted ones and their changes must be ported: when setting up the rndis/ecm interface, the names must be rndis0/ecm0 instead of the default usb0.",
+      "revId": "762fa250a1b01780b0a6e82c993c82d6b4e7a9c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
