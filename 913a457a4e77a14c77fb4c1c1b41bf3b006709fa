@@ -70,6 +70,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "641fcde5_f88d8d3e",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5699,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dc81cd19_26878ce3",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "bf2279f9_e0a931e0",
@@ -83,6 +101,24 @@
       "writtenOn": "2026-11-18T15:48:46Z",
       "side": 1,
       "message": "and this",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a415cc23_0f817906",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5706,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "bf2279f9_e0a931e0",
       "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -104,6 +140,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3e57af63_e6ad9ee6",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5707,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "58dd6207_3dca7459",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "918c8e59_a6d90049",
@@ -117,6 +171,24 @@
       "writtenOn": "2026-11-18T15:48:46Z",
       "side": 1,
       "message": "```suggestion\n\t\t\trc \u003d -ENXIO;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f4edb60c_c0b07b0c",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5726,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "918c8e59_a6d90049",
       "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
@@ -138,6 +210,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "8eafd750_a38dbfed",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5727,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "e024a967_8c7b4927",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5adf3bf8_6f00991d",
@@ -151,6 +241,24 @@
       "writtenOn": "2026-11-18T15:48:46Z",
       "side": 1,
       "message": "```suggestion\n\treturn 0;\nout:\n\tof_node_put(child);\n\treturn rc;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e5364ec9_5dbc2631",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5953,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:17:13Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5adf3bf8_6f00991d",
       "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
