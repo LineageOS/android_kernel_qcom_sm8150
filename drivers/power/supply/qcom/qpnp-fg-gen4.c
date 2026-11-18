@@ -5695,6 +5695,7 @@ static int fg_gen4_parse_dt(struct fg_gen4_chip *chip)
 		if (rc < 0) {
 			dev_err(fg->dev, "reg not specified in node %s, rc=%d\n",
 				child->full_name, rc);
+			of_node_put(child);
 			return rc;
 		}
 
@@ -5702,6 +5703,7 @@ static int fg_gen4_parse_dt(struct fg_gen4_chip *chip)
 		if (rc < 0) {
 			dev_err(fg->dev, "Couldn't read subtype for base %d, rc=%d\n",
 				base, rc);
+			of_node_put(child);
 			return rc;
 		}
 
@@ -5721,6 +5723,7 @@ static int fg_gen4_parse_dt(struct fg_gen4_chip *chip)
 		default:
 			dev_err(fg->dev, "Invalid peripheral subtype 0x%x\n",
 				subtype);
+			of_node_put(child);
 			return -ENXIO;
 		}
 	}
