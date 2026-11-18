@@ -1,0 +1,123 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "89ea0baa_e9bf36d3",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5698,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "Remove this",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "dc81cd19_26878ce3",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5699,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "```suggestion\n\t\t\tgoto out;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bf2279f9_e0a931e0",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5706,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "and this",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "58dd6207_3dca7459",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5707,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "```suggestion\n\t\t\tgoto out;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "918c8e59_a6d90049",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5726,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "```suggestion\n\t\t\trc \u003d -ENXIO;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e024a967_8c7b4927",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5727,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "```suggestion\n\t\t\tgoto out;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5adf3bf8_6f00991d",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5953,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:48:46Z",
+      "side": 1,
+      "message": "```suggestion\n\treturn 0;\nout:\n\tof_node_put(child);\n\treturn rc;\n```",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
