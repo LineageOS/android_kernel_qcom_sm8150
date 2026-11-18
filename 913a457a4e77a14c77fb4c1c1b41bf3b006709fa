@@ -35,6 +35,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "9ef4b41c_e46ec049",
+        "filename": "drivers/power/supply/qcom/qpnp-fg-gen4.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 5698,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-18T16:15:18Z",
+      "side": 1,
+      "message": "Marked as resolved.",
+      "parentUuid": "89ea0baa_e9bf36d3",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "dc81cd19_26878ce3",
