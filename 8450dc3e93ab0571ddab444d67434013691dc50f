@@ -16,6 +16,23 @@
       "message": "needs v+",
       "revId": "8450dc3e93ab0571ddab444d67434013691dc50f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b0d2b616_d6f226ad",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T19:53:34Z",
+      "side": 1,
+      "message": "I havent tested this on my devices, just did a visual review. Should also get picked to sm8250",
+      "revId": "8450dc3e93ab0571ddab444d67434013691dc50f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
