@@ -1,6 +1,23 @@
 {
   "comments": [
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "3f90c2a3_26d49ed6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-11-18T15:49:39Z",
+      "side": 1,
+      "message": "@johnsonnolen@gmail.com I tried checking to see if there was an upstream patch but nothing came from my searches. I checked up from sm8250-sm8550 kernel sources",
+      "revId": "913a457a4e77a14c77fb4c1c1b41bf3b006709fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "89ea0baa_e9bf36d3",
