@@ -33,6 +33,24 @@
       "message": "I havent tested this on my devices, just did a visual review. Should also get picked to sm8250",
       "revId": "8450dc3e93ab0571ddab444d67434013691dc50f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "db298eca_44e3d570",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-19T08:29:59Z",
+      "side": 1,
+      "message": "https://review.lineageos.org/c/LineageOS/android_kernel_qcom_sm8250/+/514301\ndone",
+      "parentUuid": "b0d2b616_d6f226ad",
+      "revId": "8450dc3e93ab0571ddab444d67434013691dc50f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
