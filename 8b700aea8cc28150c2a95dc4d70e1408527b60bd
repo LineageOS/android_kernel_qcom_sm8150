@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ec963de5_17524776",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-20T15:33:43Z",
+      "side": 1,
+      "message": "Verified on Qualcomm arm64 target. Built using Android Clang 20 (r547379) with this commit applied:\n- Kernel compiles cleanly without any errors or warnings.\n- Device boots up successfully to userspace with healthy battery and power supply initialization.\n\n@johnsonnolen@gmail.com @nreuter85@gmail.com verified, ready for submit.",
+      "revId": "8b700aea8cc28150c2a95dc4d70e1408527b60bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
