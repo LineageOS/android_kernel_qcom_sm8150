@@ -16,6 +16,24 @@
       "message": "Did you check if this is patched in any newer branch?",
       "revId": "579c7b68972635db304f206971a0852b254101dc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e1a2836b_ce035370",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 37805
+      },
+      "writtenOn": "2026-11-21T14:08:19Z",
+      "side": 1,
+      "message": "Yes, I checked newer Qualcomm kernel sources up to SM8550 (including android_kernel_qcom_sm8550 on lineage-21) as well as active device branches on lineage-22.2: this is not patched anywhere upstream or in newer branches.\n\nOnce merged here, I can also pick/port this fix to any newer branches that need it.",
+      "parentUuid": "d7d6973c_4974da98",
+      "revId": "579c7b68972635db304f206971a0852b254101dc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
