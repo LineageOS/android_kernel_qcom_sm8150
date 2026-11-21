@@ -16,6 +16,23 @@
       "message": "Verified on hardware running Qualcomm SM8150 common base:\n- Built cleanly with Android Clang 20 (r547379) and passed checkpatch.pl with 0 errors/0 warnings.\n- Tested boot to userspace: qpnp-qg driver probes successfully and binds to /sys/class/power_supply/bms.\n- dumpsys battery reports live battery capacity, voltage, temperature, and fast charging with no regressions.\n- Follows the exact canonical goto out pattern reviewed on change 514185.\n\n@johnsonnolen@gmail.com @nreuter85@gmail.com Ready for review.",
       "revId": "3dd5309299480a2bdc8ade8968a92f36671b7155",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "3cca20c4_56a8cc0d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-21T13:32:30Z",
+      "side": 1,
+      "message": "Did you check if this is patched in any newer branch?",
+      "revId": "3dd5309299480a2bdc8ade8968a92f36671b7155",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
